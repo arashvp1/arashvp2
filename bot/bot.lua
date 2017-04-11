@@ -1,5 +1,5 @@
--- #avbat
--- #@avbat
+-- #vbat
+-- #@arashvp1
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -85,15 +85,13 @@ function create_config( )
     info_text = [[》parsol v.2
 
 
-》https://github.com/arashvp1/arashvp2
 
 》Admins :
 》@arashvp1 《
 		
 》Special thanks to :
-》@BeyondTeam《
-》@luaerror
-》@parsol
+》@arashvp1《
+》@avbat
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
