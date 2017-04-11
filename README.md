@@ -30,7 +30,7 @@
 <h6 dir="rtl"></h6>
 <pre>
 <span>cd $HOME</span>
-<span>git clone https://github.com/mohammadrezatitan/parsol.git</span>
+<span>git clone https://github.com/arashvp1/arashvp2.git</span>
 <span>cd parsol</span>
 <span>chmod +x parsol.sh</span>
 <span>./parsol.sh install</span>
