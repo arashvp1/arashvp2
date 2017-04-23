@@ -210,7 +210,7 @@ function run(msg, matches)
 	end
 --------------------------------
 	if matches[1]:lower() == 'ساعت' then
-		local url , res = http.request('http://api.gpmod.ir/time/')
+		local url , res = http.request('http://irapi.ir/time')
 		if res ~= 200 then
 			return "No connection"
 		end
